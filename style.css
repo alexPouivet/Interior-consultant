@@ -177,6 +177,10 @@ footer {
   display: flex;
 }
 
+footer hr {
+  display: none;
+}
+
 footer p {
   margin: auto;
   margin-bottom: 46px;
@@ -292,6 +296,21 @@ footer p {
     width: 210px;
     font-size: 18px;
     line-height: 23px;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  footer hr {
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    height: 1px;
+    width: 261px;
+  	border: 0;
+  	background-color: #A9A9A9;
   }
 
   #menu-mobile {
